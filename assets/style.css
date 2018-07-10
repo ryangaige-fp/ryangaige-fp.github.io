@@ -1,0 +1,36 @@
+body {
+  font-family: "raleway", sans-serif;
+}
+
+/* about section */
+.about-container {
+  height: 45vh;
+  background: linear-gradient(#48dac6, #36b4e6);
+}
+
+/* project section */
+.projects-container {
+  height: 45vh;
+}
+
+/* skills section */
+.skills-container {
+  height: 45vh;
+}
+
+/* contact section */
+.contact-container {
+  height: 45vh;
+}
+
+/* Footer section */
+.footer-container {
+  height: 25vh;
+  background-color: black;
+}
+
+.footer-column-1 {
+  border-right: 1rem;
+  border-right-color: solid white;
+  color: white;
+}
