@@ -4,10 +4,10 @@ body {
 
 /* about section */
 .about-container {
-  height: 80vh;
+  height: 65vh;
   background: url(/assets/photos/Borah.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: contain; */
   /* background-position: center center; */
 }
 
@@ -19,6 +19,7 @@ body {
   font-weight: 200;
   font-size: 4rem;
   text-shadow: 2px 2px 8px #000000;
+  color: white;
 }
 
 .last-name-title {
@@ -32,11 +33,22 @@ body {
   font-weight: 300;
   font-size: 2rem;
   text-shadow: 2px 2px 8px #000000;
+  color: white;
+}
+
+.button-projects {
+  width: 8rem;
+  opacity: 0.8;
+}
+
+.button-about {
+  width: 8rem;
 }
 
 /* project section */
 .projects-container {
-  height: 45vh;
+  height: 80vh;
+  background: #75d8c3;
 }
 
 .card-columns {
